@@ -45,7 +45,7 @@ background:#3f51b5;
 .header{
 position:relative;
 padding:18px 5%;
-z-index:1;
+z-index:1000;
 }    
 .header .logo{
 float:left;
@@ -124,7 +124,7 @@ margin:5px 0;
     position: absolute;
     left: 0;
     bottom: 0;
-    z-index: 1000;
+    z-index: 999;
     width: 30px;
     height: 30px;
     display: inline-block;
@@ -143,7 +143,7 @@ margin:5px 0;
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: 1000;
+    z-index: 999;
     width: 30px;
     height: 30px;
     display: inline-block;
