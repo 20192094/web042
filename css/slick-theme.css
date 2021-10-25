@@ -38,7 +38,6 @@
     color: transparent;
     outline: none;
     background: transparent;
-    /*background-color:#808080;*/
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -112,7 +111,7 @@
 .slick-dots
 {
     position: absolute;
-    bottom: -25px;
+    bottom: -30px;/*슬라이드 dot 거리*/
 
     display: block;
 

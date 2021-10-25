@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* 모바일용 CSS */
+/* 기본 CSS */
+#wrap {
+    background-color: black;
+}
+.container{
+width:90%;
+max-width:1132px;
+margin:0 auto;
+}    
+.cfixed:after, .container:after{
+display:block;
+content:"";
+clear:both;
+}    
+.sec-tit{
+font-size:42px;
+color:#3f51b5;
+font-weight:normal;
+}
+.divider{
+width:90%;
+max-width:1132px;
+margin:0 auto;
+margin-top:17px;
+background:#eee;
+}   
+.m-divider{
+width:20px;
+margin:0 auto;
+margin-top:77px;
+background:#3f51b5;
+}
+    
+/* 헤더 영역 CSS */
+.header {
+    position: fixed;
+    padding: 18px 5%;
+    z-index: 1000;
+    height: 10rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}    
+.header .logo{
+float:left;
+}    
+.header .logo a{
+font-size:26px;
+color:#3f51b5;
+font-weight:normal;
+}
+.header .gnb{
+display:none;
+position:absolute;
+top:100%;
+left:0;
+width:100%;
+background:#3f51b5;
+}    
+.header .gnb li{
+border-bottom:1px solid #303f9f;
+}    
+.header .gnb li a{
+display:block;
+padding:14px 0 14px 5%;
+font-size:14px;
+color:#fff;
+}    
+.header .menu-toggle-btn{
+float:right;
+width:20px;
+margin-top:4px;
+cursor:pointer;
+}   
+.header .menu-toggle-btn span{
+display:block;
+width:100%;
+height:2px;
+background:#3f51b5;
+}    
+.header .menu-toggle-btn span:nth-child(2){
+margin:5px 0;
+}
+.header img{
+    width:15px;
+}
+.header p{
+    font-weight:bold;
+}
+
+/*슬라이더 영역*/
+
+/* 최근 작업 영역 CSS */
+.work-section {
+    overflow: hidden;
+    padding: 3%;
+    width: 100%;
+}
+
+    .work-section .sec-tit {
+        text-align: center;
+        margin:0 auto;
+        margin-bottom: 47px;
+        margin-top:10rem;
+    }
+
+    .work-section .work-list li {
+        width: 45%;
+        margin: 2%;
+        height: 210px;
+        background-color: black;
+        float: left;
+        border-radius: 5px;
+    }
+    .work-section .work-list img{
+        border-radius:5px;
+    }
+    .work-section .work-list li h3 {
+        color: white;
+        font-weight: normal;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .work-section p {
+        color: #424242;
+        font-size: 5px;
+        margin-top:10px;
+    }
+    
+/* 최근 글 영역 CSS */
+   
+    
+/* 푸터 영역 CSS */
+.footer{
+margin-top:104px;
+}
+    
+.footer iframe{
+width:100%;
+height:320px;
+}
+    
+.footer p{
+margin:21px 0;
+color:#3f51b5;
+text-align:center;
+}    
+
+/* 태블릿용 CSS */
+@media all and (min-width:768px){
+
+/* 기본 CSS */
+.divider{
+margin-top:124px;
+}    
+    
+.m-divider{
+margin-top:124px;
+}
+    
+/* 헤더 영역 CSS */  
+.header .gnb{
+display:block !important;
+position:static;
+float:right;
+width:auto;
+margin-top:6px;
+background:none;
+}
+    
+.header .gnb li{
+float:left;
+margin-left:21px;
+border-bottom:0;
+}
+    
+.header .gnb li a{
+padding:0;
+font-size:16px;
+color:#3f51b5;
+}
+    
+.header .menu-toggle-btn{
+display:none !important;
+}
+    
+/* 최근 작업 영역 CSS */
+
+
+/* 최근 글 영역 CSS */
+
+    
+/* 푸터 영역 CSS */
+.footer iframe{
+height:432px;
+}
+    
+.footer p{
+margin:34px 0;
+}  
+}
+    
+/* PC용 CSS */
+@media all and (min-width:1132px){
+    .header {
+        background-color: rgba(0, 0, 0, 0.4);
+        height:8rem;
+    }
+
+    /*슬라이드 영역*/
+
+/* 최근 작업 영역 CSS */
+    .work-section .sec-tit {
+        width: 100%;
+        text-align: left;
+        margin: 10rem 590px;
+        font-size:60px;
+    }
+    .work-section .work-list li {
+        width: 18%;
+        margin: 1%;
+        height: 380px;
+        
+    }
+    .work-section .work-list img{
+        height:260px;
+    }
+    .work-section .work-list li h3 {
+        color: white;
+        font-weight: normal;
+        font-size: 30px;
+        margin:0;
+    }
+    .work-section p{
+        color:#424242;
+        font-size:15px;
+        margin-top:15px;
+    }
+
+/* 최근 글 영역 CSS */
+   
+}
