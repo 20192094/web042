@@ -288,7 +288,19 @@ display:none !important;
 }
     
 /* 최근 작업 영역 CSS */
+    .work-section .work-list li h3 {
+        color: white;
+        font-weight: normal;
+        font-size: 30px;
+        margin: 0;
+    }
 
+    .work-section p {
+        display: block !important;
+        color: #424242;
+        font-size: 15px;
+        margin-top: 15px;
+    }
 
 /* 최근 글 영역 CSS */
 .blog-section{
@@ -401,19 +413,7 @@ margin:34px 0;
     .work-section .work-list img{
         height:260px;
     }
-    .work-section .work-list li h3 {
-        color: white;
-        font-weight: normal;
-        font-size: 30px;
-        margin:0;
-    }
-    .work-section p{
-        display:initial;
-        color:#424242;
-        font-size:15px;
-        margin-top:15px;
-    }
-
+  
 /* 최근 글 영역 CSS */
 .blog-section .sec-tit{
 float:left;
