@@ -408,7 +408,7 @@ margin:34px 0;
         margin:0;
     }
     .work-section p{
-        display:inherit;
+        display:initial;
         color:#424242;
         font-size:15px;
         margin-top:15px;
