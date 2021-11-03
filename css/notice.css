@@ -130,13 +130,13 @@ font-weight:bold;
 }
 
 .board_table thead{
-color:#616161;/*첫번째칸 글자*/
+color:dimgray;/*첫번째칸 글자*/
 background:rgba(20,20,20,1);
 display:none;
 }
 
 .board_table tbody, .board_table tbody a{
-color:#fff;/*내용 글자*/
+color:#fff;/*제목 글자*/
 }
 .board_table tbody p{
     color:red;
@@ -156,6 +156,8 @@ text-align:center;
 .board_table tbody tr td{
 padding:22px 0;
 padding:1.375rem 0;
+border-bottom:1px solid;
+color:gray;
 }
 .board_table tbody tr td a{
     width:260px;
@@ -352,6 +354,12 @@ display:none !important;
 .content_section{
 padding:60px;
 padding:3.750rem;
+}
+.board_table tbody tr td a{
+    width:750px;
+}
+.board_table tbody tr td a:hover{
+    background:rgba(20,20,20,1);
 }
 
 /* 푸터 영역 CSS */
