@@ -126,44 +126,26 @@ margin:5px 0;
     left: 0;
     bottom: 0;
     z-index: 999;
-    width: 45px;
-    height: 130px;
     display: inline-block;
     text-indent: -9999px;
     font: normal normal normal 14px/1 FontAwesome;
-    margin-top:5rem;
 }
     .slider .slick-prev::before {
-        content: "\f137";
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
         text-indent: 0;
         position: absolute;
-        left: 9px;
-        top: 8px;
-        margin-top:50px;
     }
 .slider .slick-next {
     position: absolute;
     right: 0;
     bottom: 0;
     z-index: 999;
-    width: 45px;
-    height: 130px;
     display: inline-block;
     text-indent: -9999px;
     font: normal normal normal 14px/1 FontAwesome;
-    margin-top:5rem;
 }
     .slider .slick-next::before {
-        content: "\f138";
-        font-family: "Font Awesome 5 Free";
-        font-weight: 900;
         text-indent: 0;
         position: absolute;
-        left: 11px;
-        top: 8px;
-        margin-top: 50px;
     }
 
 /* 최근 작업 영역 CSS */
