@@ -482,7 +482,7 @@ display:none !important;
         margin:0;
     }
     .slider .slick-prev {
-        width: 200px;
+        width: 160px;
         height: 300px;
         margin-top: 0;
     }
@@ -490,7 +490,7 @@ display:none !important;
             content: "\f137";
             font-family: "Font Awesome 5 Free";
             font-weight: 900;
-            left: 140px;
+            left: 110px;
             top: 190px;
             font-size: 48px;
             margin-top:0;
