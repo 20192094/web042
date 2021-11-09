@@ -545,7 +545,7 @@ margin-left:2.369668246445498%;
 /* 20px ÷ 844px*/
 margin-top:0;
 }  
-.blog-section .blog-list li:first-child{
+.blog-section .blog-list li:first-child, .blog-list li:nth-child(4){
 margin-left:0;
 }
 /* 디스플레이 영역 CSS */
