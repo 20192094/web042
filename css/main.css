@@ -482,7 +482,7 @@ display:none !important;
         margin:0;
     }
     .slider .slick-prev {
-        width: 160px;
+        width: 200px;
         height: 300px;
         margin-top: 0;
     }
@@ -490,9 +490,10 @@ display:none !important;
             content: "\f137";
             font-family: "Font Awesome 5 Free";
             font-weight: 900;
-            left: 160px;
+            left: 140px;
             top: 190px;
             font-size: 48px;
+            margin-top:0;
         }
     .slider .slick-next{
         width:160px;
@@ -506,6 +507,7 @@ display:none !important;
             left: 0px;
             top: 190px;
             font-size: 48px;
+            margin-top:0;
         }
 /* 최근 작업 영역 CSS */
     .work-section {
